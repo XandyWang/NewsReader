@@ -1,0 +1,52 @@
+<RelativeLayout xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context=".NewsItemListView" xmlns:android="http://schemas.android.com/apk/res/android">
+
+    <RelativeLayout
+        android:id="@+id/newsitem_header_tools"
+        android:layout_width="wrap_content"
+        android:layout_height="50dp"
+        android:layout_alignParentLeft="true"
+        android:layout_alignParentRight="true"
+        android:layout_alignParentTop="true"
+        android:background="#F0FFFF" 
+        android:visibility="gone" >
+
+        <TextView
+            android:id="@+id/news_channel_title"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_centerInParent="true"
+            android:layout_marginLeft="84dp"
+            android:text="频道标题"
+            android:textColor="@color/yellow_tip_text"
+            android:textSize="22sp" 
+            android:singleLine="true" />
+
+    </RelativeLayout>
+
+    <TextView
+        android:id="@+id/newsitem_bottons"
+        android:layout_width="match_parent"
+        android:layout_height="2dp"
+        android:layout_alignParentLeft="true"
+        android:layout_alignParentRight="true"
+        android:layout_below="@+id/newsitem_header_tools"
+        android:background="@color/yellow_tip_text" 
+        android:visibility="gone" />
+    
+    <com.android.cc.xlistview.XListView
+        android:id="@+id/NewsItem_ListView"
+        android:layout_width="fill_parent"
+        android:layout_height="fill_parent"
+        android:layout_below="@+id/newsitem_bottons"
+        android:cacheColorHint="#ffffff"
+        android:divider="@drawable/list_view_dilive_shape"
+        android:dividerHeight="1dp"
+        android:background="#FFFFFF"
+         >
+        
+    </com.android.cc.xlistview.XListView>
+
+</RelativeLayout>

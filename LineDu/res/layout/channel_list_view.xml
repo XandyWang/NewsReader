@@ -1,0 +1,19 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:id="@+id/channel_view"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent" >
+
+    <com.android.cc.xlistview.XListView
+        android:id="@+id/Channel_ListView"
+        android:layout_width="fill_parent"
+        android:layout_height="fill_parent"
+        android:cacheColorHint="#00000000"
+        android:divider="@drawable/list_view_dilive_shape"
+        android:dividerHeight="1dp"
+        android:background="#FFFFFF"
+         >
+        
+    </com.android.cc.xlistview.XListView>
+
+</RelativeLayout>

@@ -1,0 +1,65 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="wrap_content"
+    android:layout_height="wrap_content"
+    android:background="@drawable/menu_dialog_shape"
+    android:orientation="vertical"
+    android:padding="15dp" >
+
+    <TextView
+        android:id="@+id/sort_title"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:maxEms="10"
+        android:minEms="10"
+        android:paddingBottom="5dp"
+        android:paddingLeft="10dp"
+        android:paddingTop="5dp"
+        android:textColor="@color/channel_menu_text"
+        android:text="类别名称" />
+
+    <AutoCompleteTextView
+        android:id="@+id/sort_menu_title_edit"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:background="@drawable/menu_dialog_edittext"
+        android:ems="10"
+        android:padding="5dp"
+        android:hint="请输入类别的名称" >
+
+        <requestFocus />
+    </AutoCompleteTextView>
+
+    <LinearLayout
+        android:id="@+id/bottom_bar"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content" >
+
+        <Button
+            android:id="@+id/sort_menu_sure"
+            android:layout_width="0dp"
+            android:layout_height="wrap_content"
+            android:layout_marginRight="3dp"
+            android:layout_marginTop="5dp"
+            android:layout_weight="1.0"
+            android:background="@drawable/menu_dialog_button_sure"
+            android:paddingBottom="8dp"
+            android:paddingTop="8dp"
+            android:text="确定"
+            android:textColor="#ffffff" />
+
+        <Button
+            android:id="@+id/sort_menu_cancel"
+            android:layout_width="0dp"
+            android:layout_height="wrap_content"
+            android:layout_marginRight="3dp"
+            android:layout_marginTop="5dp"
+            android:layout_weight="1.0"
+            android:background="@drawable/menu_dialog_button"
+            android:paddingBottom="8dp"
+            android:paddingTop="8dp"
+            android:text="取消"
+            android:textColor="#ffffff" />
+    </LinearLayout>
+
+</LinearLayout>

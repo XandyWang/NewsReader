@@ -1,0 +1,75 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="@color/base_bg" >
+
+    <LinearLayout
+        android:id="@+id/news_view_header"
+        android:layout_width="wrap_content"
+        android:layout_height="50dp"
+        android:layout_alignParentLeft="true"
+        android:layout_alignParentRight="true"
+        android:layout_alignParentTop="true"
+        android:background="@color/base_bg"
+        android:layout_marginBottom="2dp" >
+        
+        <Button
+            android:id="@+id/last_new"
+            android:layout_width="0dp"
+            android:layout_height="match_parent"
+            android:background="@drawable/news_web_button"
+            android:layout_weight="1.0"
+            android:layout_margin="2dp"
+            android:text="上一条" />
+        
+        <Button
+            android:id="@+id/next_new"
+            android:layout_width="0dp"
+            android:layout_height="match_parent"
+            android:background="@drawable/news_web_button"
+            android:layout_weight="1.0"
+            android:layout_margin="2dp"
+            android:text="下一条" />
+        
+        <Button
+            android:id="@+id/refresh_new"
+            android:layout_width="0dp"
+            android:layout_height="match_parent"
+            android:background="@drawable/news_web_button"
+            android:layout_weight="1.0"
+            android:layout_margin="2dp"
+            android:text="刷新" />
+        
+        <Button
+            android:id="@+id/share_new"
+            android:layout_width="0dp"
+            android:layout_height="match_parent"
+            android:background="@drawable/news_web_button"
+            android:layout_weight="1.0"
+            android:layout_margin="2dp"
+            android:text="分享" />
+
+    </LinearLayout>
+
+    <WebView
+        android:id="@+id/news_web_view"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_alignParentBottom="true"
+        android:layout_alignParentLeft="true"
+        android:layout_alignParentRight="true"
+        android:layout_below="@+id/news_view_header"
+        android:padding="2dp" 
+        android:visibility="gone" />
+    
+    <com.android.cc.news.ProgressWebView 
+        android:id="@+id/web" 
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_alignParentBottom="true"
+        android:layout_alignParentLeft="true"
+        android:layout_alignParentRight="true"
+        android:layout_below="@+id/news_view_header" />
+
+</RelativeLayout>

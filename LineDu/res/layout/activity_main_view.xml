@@ -1,0 +1,60 @@
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context=".MainView" >
+
+    <RelativeLayout
+        android:id="@+id/activity_bar"
+        android:layout_width="wrap_content"
+        android:layout_height="50dp"
+        android:layout_alignParentLeft="true"
+        android:layout_alignParentRight="true"
+        android:layout_alignParentTop="true"
+        android:background="@color/base_bg" >
+
+        <Button
+            android:id="@+id/set_channel"
+            android:layout_width="60dp"
+            android:layout_height="fill_parent"
+            android:layout_alignParentLeft="true"
+            android:background="@color/base_bg"
+            android:text="设置"
+            android:textColor="#000000"
+            android:textSize="16sp" 
+            android:visibility="gone" />
+
+        <TextView
+            android:id="@+id/sort_title"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_centerInParent="true"
+            android:text="新闻阅读器"
+            android:textSize="20sp"
+            android:textColor="@color/base_text"  />
+
+        <TextView
+            android:id="@+id/line"
+            android:layout_width="1dp"
+            android:layout_height="fill_parent"
+            android:background="#90ffffff"
+            android:visibility="gone"
+            android:layout_toRightOf="@+id/set_channel" />
+
+    </RelativeLayout>
+    
+    <com.aphidmobile.flip.FlipViewController
+        xmlns:flip="http://schemas.android.com/apk/res-auto"
+        android:id="@+id/flipView"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        flip:animationBitmapFormat="ARGB_4444"
+        flip:orientation="horizontal" 
+        android:layout_alignParentBottom="true"
+        android:layout_alignParentLeft="true"
+        android:layout_alignParentRight="true"
+        android:layout_below="@id/activity_bar" >
+        
+    </com.aphidmobile.flip.FlipViewController>
+
+</RelativeLayout>

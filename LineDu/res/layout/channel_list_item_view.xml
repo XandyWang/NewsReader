@@ -1,0 +1,63 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="60dp"
+    android:paddingBottom="5dp"
+    android:paddingTop="5dp"  >
+
+    <TextView
+        android:id="@+id/first_channel_word"
+        android:layout_width="50dp"
+        android:layout_height="50dp"
+        android:layout_alignParentLeft="true"
+        android:layout_centerVertical="true"
+        android:layout_marginLeft="5dp"
+        android:background="@color/base_bg"
+        android:gravity="center"
+        android:text="C"
+        android:textColor="#ffffff"
+        android:textSize="28sp"
+        android:textStyle="bold" />
+
+    <TextView
+        android:id="@+id/other_channel_word"
+        android:layout_width="wrap_content"
+        android:layout_height="30dp"
+        android:layout_alignParentRight="true"
+        android:layout_alignTop="@+id/first_channel_word"
+        android:layout_marginLeft="5dp"
+        android:layout_marginRight="5dp"
+        android:layout_toRightOf="@+id/first_channel_word"
+        android:gravity="center_vertical"
+        android:singleLine="true"
+        android:text="hannel"
+        android:textColor="@color/base_bg"
+        android:textSize="20sp"
+        android:textStyle="bold" />
+
+    <TextView
+        android:id="@+id/channel_desc"
+        android:layout_width="wrap_content"
+        android:layout_height="20dp"
+        android:layout_alignBottom="@+id/first_channel_word"
+        android:layout_alignLeft="@+id/other_channel_word"
+        android:layout_alignRight="@+id/other_channel_word"
+        android:layout_below="@+id/channel_word"
+        android:layout_marginLeft="5dp"
+        android:layout_marginRight="80dp"
+        android:gravity="center_vertical"
+        android:singleLine="true"
+        android:textColor="@color/cli_desc_text"
+        android:text="Channel Desc..." />
+
+    <TextView
+        android:id="@+id/channel_pubdate"
+        android:layout_width="80dp"
+        android:layout_height="wrap_content"
+        android:layout_alignRight="@+id/other_channel_word"
+        android:layout_below="@+id/other_channel_word"
+        android:singleLine="true" 
+        android:textColor="@color/cli_desc_text"
+        android:text="TextView" />
+
+</RelativeLayout>

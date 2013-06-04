@@ -1,0 +1,77 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    
+    <color name="base_bg" >#99CC99</color>
+    <color name="base_text" >#FFFFFF</color>
+    
+    <!-- MainView -->
+    <color name="main_title_text" >#CC9933</color>
+    
+    <!-- Channel listview item -->
+    <color name="cli_title1_bg" >#CC9933</color>
+    <color name="cli_title1_text" >#CC9933</color>
+    
+    <color name="cli_title2_bg" >#CC9933</color>
+    <color name="cli_title2_text" >#CC9933</color>
+    
+    <color name="cli_desc_bg" >#CCCC66</color>
+    <color name="cli_desc_text" >#CCCC66</color>
+    
+    <color name="cli_time_bg" >#CC9933</color>
+    <color name="cli_time_text" >#CC9933</color>
+    
+    
+    
+    <color name="black_text" >#212121</color>	
+    <color name="red_tip" >#9B1515</color>	
+    <color name="yellow_tip_text" >#FF8C00</color>
+    <color name="yellow_tip" >#FF8C00</color>
+    <color name="yellow_tip_point" >#FFFFFF</color>
+    
+    <!-- channel_menu -->
+    <color name="channel_menu_bg">#FFFFCC</color>
+    <color name="channel_menu_text">#009999</color>
+    <color name="channel_menu_button_sure_bg">#FF9900</color>
+    <color name="channel_menu_button_sure_press_bg">#A0FF9900</color>
+    <color name="channel_menu_button_bg">#99CC99</color>
+    <color name="channel_menu_button_press_bg">#0099CC</color>
+    <color name="channel_menu_button_storke">#9999CC99</color>
+    <color name="channel_menu_radio_check">#99CC99</color>
+    <color name="channel_menu_radio_check_text">#ffffff</color>
+    <color name="channel_menu_radio_storke">#9999CC99</color>
+    <color name="channel_menu_radio_uncheck">#5099CC99</color>
+    <color name="channel_menu_radio_uncheck_text">#A0999999</color>
+    <color name="channel_menu_radio_press">#A0FF9900</color>
+    <color name="channel_menu_radio_unstorke">#FAFAD2</color>
+    <color name="channel_menu_edittext_storke_focuse">#FF8C00</color>
+    <color name="channel_menu_edittext_storke_press">#A0FF8C00</color>
+    <color name="channel_menu_edittext_storke">#99CC99</color>
+    <color name="channel_menu_edittext_bg">#ffffff</color>
+    <color name="channel_menu_ac_check_text">#009999</color>
+    <color name="channel_menu_ac_text">#99CC99</color>
+    
+    
+    <color name="button_start">#ffffff</color>
+    <color name="button_end">#ffffff</color>
+    <color name="button_stroke">#36000000</color>
+    
+    <color name="button_normal">#FFFFFF</color>
+    <color name="button_press">#FFFF00</color>
+    
+    <color name="news_normal_bg">#E6365689</color>
+    <color name="news_press_bg">#f0ffff</color>
+    
+    <drawable name="add_channel_bg">#e0000000</drawable>
+    <color name="stork">#ff8080</color>
+    
+    
+    
+    <!-- some background color -->
+    <color name="bg_lu">#9099CC99</color>
+    
+    <!-- radio button  -->
+    <color name="color_text_normal">#808080</color>
+    <color name="color_text_selected">#FF8C00</color>
+    
+    
+</resources>
